@@ -15,7 +15,7 @@ import copy
 #pd.set_option('display.max_rows', 10)
 
 # L o a di n g o f d a t a and p r i n t
-raw_data = pd.read_csv('personnes.csv')
+raw_data = pd.read_csv('Week 1/personnes.csv')
 #retain copy of original data. Deep copy to avoid shared reference
 data = copy.deepcopy(raw_data)
 print(data)
